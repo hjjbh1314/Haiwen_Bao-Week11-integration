@@ -187,3 +187,47 @@ python -m pytest test_security.py -v
 4. **Regex over ML**: Used regex-based pattern matching for simplicity and zero external dependencies. Documented this as a limitation in README.md with a recommendation to add ML classifiers in production.
 5. **In-memory audit log**: Chose a simple list-based log inside `EthicalGuard` for the assignment scope, noted in README that production use should persist to a database.
 6. **Before + After model execution**: After review, added `check_model_output()` to screen model responses, ensuring security is exercised both before and after model execution as required.
+
+---
+
+## Conversation 4 — 2026-04-24
+
+---
+
+**User:**
+
+要不要稍微精简一下readme
+
+---
+
+**AI (Codex):**
+
+要，我建议轻度精简。现在 README 内容完整，但从老师阅卷角度看，越快扫到 `system overview`、`threat model`、`security measures`、`how to use`、`limitations` 越好，所以可以删掉一些重复表述。
+
+---
+
+**User:**
+
+主要是作业要求1-2页
+
+---
+
+**AI (Codex):**
+
+当前 README 大约 768 词，确实有点偏长。我把它压缩到更接近 1-2 页的长度，同时保留 rubric 里要求的系统概述、威胁模型、安全措施、使用方法和限制说明。更新后 README 约 525 词，更稳妥一些。
+
+---
+
+## Conversation 5 — 2026-04-24
+
+---
+
+**User:**
+
+请你更新readme并更新prompt-log，并重新提交
+
+---
+
+**AI (Codex):**
+
+我先检查本地分支和未提交改动，把这次 `README.md` 和 `prompt-log.md` 的更新整理成一个新提交，然后直接推回 GitHub。之后我同步了远程状态，确认旧功能分支已经删除，准备把这次文档改动提交到最新的 `main`。
